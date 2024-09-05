@@ -22,14 +22,37 @@ The Timestamp can be found by looking at the Details tab and XML view. Keep in m
 ### Task 2
 ```When a volume shadow snapshot is created, the Volume shadow copy service validates the privileges using the Machine account and enumerates User groups. Find the User groups it enumerates, the Subject Account name, and also identify the Process ID(in decimal) of the Volume shadow copy service process```
 
-For this task we will look into the SECURITY logs, for 
+For this task we will look into the SECURITY logs, for event codes 4799, and 5379; first code being a security group was enmumerated and the later being that credentials were read.
 ### Task 3
 ```Identify the Process ID (in Decimal) of the volume shadow copy service process.```
+
+This one was mentioned in the previous task and can be found in the 4799 event. Answer needs to be converted from hex. I just used the Programmer mode in the Windows calc app.
+**Picture here of relevant info**
 ### Task 4
 ```Find the assigned Volume ID/GUID value to the Shadow copy snapshot when it was mounted.```
+
+To find the snapshot that was mounted we would select the Microsoft-Windows-NTFS logs and look at Event ID 4 which are volume mounts.
+**Insert Image here**
 ### Task 5
 ```Identify the full path of the dumped NTDS database on disk.```
+
+With this task we finally leave Event Viewer with all the relevant information and u.
+MFTeCMD and Timeline Explorer can be found here a long with many other useful tools. https://ericzimmerman.github.io/#!index.md
+
+First thing we got to do is parse out the $MFT artifact into a CSV file. Just picking this up my export was not great but it created the directory anyways. Important note is that it did ask for admin rights for the command line, so something to keep in mind if you are in a environment where you don't have that access. I used this command on to generate the CSV.
+```. .\MFTECmd.exe -f '..\..\Sec\HTB Drops\SHERLOCKS\Artifacts\C\$MFT' --csv ~```
+
+We then import the new CSV into the timeline explorer and apply a filter to to narrow down results to the day of the incident. I used the last modified column and filter as "Is same day". I would have taken a screenshot of the table selections but it would disappear with either print screen or delayed snipping tool so this what you get.
+**Insert picture of filter**
+
+We know we are looking for a ntds.dit file so we use a secondary filter in the "File Name" Column, which resulted in only 1 result. The parent path column which should be next to file name should have the answer. For entering the answer, entering C:\.............\ntds.dit was correct.
+
 ### Task 6
 ```When was newly dumped ntds.dit created on disk?```
+
+This task can be completed by looking at the Created column.
+
 ### Task 7
 ```A registry hive was also dumped alongside the NTDS database. Which registry hive was dumped and what is its file size in bytes?```
+
+This one is pretty straightforward as well. Before removing the file name column filter, double click the Parent Path cell contents for the Task 5 answer and copy it to clipboard. Now clear the File Name column filter and then apply a filter to the Parent Path column by pasting from clipboard. You should have two rows for the result. Grab the hive name from the file name column and the size from the File Size column. This task and Sherlock are now done.
