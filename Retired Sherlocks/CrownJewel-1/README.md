@@ -1,6 +1,10 @@
 # CrownJewel-1
 ## Summary
 CrownJewel-1 is the first sherlock I'm doing. So I'm going to be figuring this out as I go <Alan please remove afterwords and put in a correct summary>
+### Tools Used
+* Windows Event Viewer
+* MFTeCMD (ZimmermanTools)
+* Timeline Exlorer (ZimmermanTools)
 
 ## Scenario Text
 ```Forela's domain controller is under attack. The Domain Administrator account is believed to be compromised, and it is suspected that the threat actor dumped the NTDS.dit database on the DC. We just received an alert of vssadmin being used on the DC, since this is not part of the routine schedule we have good reason to believe that the attacker abused this LOLBIN utility to get the Domain environment's crown jewel. Perform some analysis on provided artifacts for a quick triage and if possible kick the attacker as early as possible.```
