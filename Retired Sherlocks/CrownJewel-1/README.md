@@ -23,7 +23,8 @@ So taking first look at what files were included we are provided with 4 files fo
 
 For this first task, we need to identify a timestamp for the the Volume Shadow Copy service to be running. The tool used for this part is Windows Event Viewer.
 After importing the event files we then can use the find the command in the Actions bar on the right and look through the SYSTEM to find the event.
-[Task1_SYSTEM_Find](https://github.com/user-attachments/assets/f77ca883-2835-4b2f-9a9d-470a62810dae)
+
+![Task1_SYSTEM_Find](https://github.com/user-attachments/assets/f77ca883-2835-4b2f-9a9d-470a62810dae)
 
 
 The Timestamp can be found by looking at the Details tab and XML view. Keep in mind the Logged time is not the same as time created.
