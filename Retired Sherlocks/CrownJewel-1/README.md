@@ -11,9 +11,9 @@ CrownJewel-1 is the first sherlock I'm doing. So I'm going to be figuring this o
 
 So taking first look at what files were included we are provided with 4 files for this scenario:
 * 3 Event logs:
-** Microsoft-Windows-NTFS
-** SECURITY
-** SYSTEM
+..* Microsoft-Windows-NTFS
+..* SECURITY
+..* SYSTEM
 * 1 File called $MFT, which on first assumption is a Master File Table index.
 
 For this first task, we need to identify a timestamp for the the Volume Shadow Copy service to be running. The tool used for this part is Windows Event Viewer.
