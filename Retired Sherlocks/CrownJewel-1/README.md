@@ -47,7 +47,7 @@ To find the snapshot that was mounted we would select the Microsoft-Windows-NTFS
 ### Task 5
 ```Identify the full path of the dumped NTDS database on disk.```
 
-With this task we finally leave Event Viewer with all the relevant information and u.
+With this task, we finally leave Event Viewer with all the relevant information needed and utilize it while parsing the $MFT file.
 MFTeCMD and Timeline Explorer can be found here a long with many other useful tools. https://ericzimmerman.github.io/#!index.md
 
 First thing we got to do is parse out the $MFT artifact into a CSV file. Just picking this up my export was not great but it created the directory anyways. Important note is that it did ask for admin rights for the command line, so something to keep in mind if you are in a environment where you don't have that access. I used this command on to generate the CSV.
