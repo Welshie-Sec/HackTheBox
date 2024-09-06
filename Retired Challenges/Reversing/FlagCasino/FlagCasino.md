@@ -40,7 +40,7 @@ Being that this is HackTheBox, it is very common for flags this following format
 ![HappyPath_FlagPrefix](https://github.com/user-attachments/assets/f386e7d7-4dec-4f90-94e3-ec7dae994a68)
 
 
-# SRAND and Rand
+# SRAND and RAND
 
 From https://cplusplus.com/reference/cstdlib/srand/
 
