@@ -18,7 +18,7 @@ To try and keep this section from becomming too long, I will put what tools I us
 ## Mobile
  <Coming Soon!>
 ## OSINT
- <Coming Soon!>
+[Money Flowz (Easy?)](https://github.com/Welshie-Sec/HackTheBox/blob/master/Retired%20Challenges/OSINT/Money%20Flowz/Money%20Flowz.md)
 ## Pwn
  <Coming Soon!>
 ## Reversing
