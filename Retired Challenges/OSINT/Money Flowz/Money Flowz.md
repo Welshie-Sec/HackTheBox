@@ -21,6 +21,8 @@ So first we start with a basic google search and ignore running into other write
 
 https://www.reddit.com/user/frankvitalik/
 
+![Google_Frank](https://github.com/user-attachments/assets/7049a183-d44f-4280-ac4e-5ba1126712a6)
+
 This user seems to match what we are looking for. References to Crypto scamming and what appears to be a link to a sketchy url.
 
 There is a couple of other sites to check like the X/Twitter postings and a Freelance profile but let's start with Franks free coinz url.
@@ -42,7 +44,8 @@ Checking around, it seems to be a legitamate wallet address, first site didn't s
 
 ```0x1b3247Cd0A59ac8B37A922804D150556dB837699```
 
-**Insert freecoinz**
+![freecoinz](https://github.com/user-attachments/assets/75550fd5-547c-4f4a-a9c9-d68186a6979e)
+
 
 We also technically have another user called freecoinz but I don't consider this a viable route.
 
@@ -65,5 +68,5 @@ And luckily enough the wayback machine clutches this up and has a valid capture 
 
 ```http://web.archive.org/web/20211121151402/https://ropsten.etherscan.io/tx/0xe1320c23f292e52090e423e5cdb7b4b10d3c70a8d1b947dff25ae892609f2ef4```
 
-**Insert picture on wayback machine**
+![Waybackd](https://github.com/user-attachments/assets/5c214030-c4f6-4297-94aa-29dcb04bd937)
 
