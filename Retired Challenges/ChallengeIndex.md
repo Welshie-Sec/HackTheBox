@@ -1,4 +1,5 @@
 # Retired Challenges
+To try and keep this section from becomming too long, I will put what tools I used in the specific challenges and common tools used in the challenge type readme's.
 
 ## AI-ML
 ## Blockchain
