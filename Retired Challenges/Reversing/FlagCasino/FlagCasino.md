@@ -1,5 +1,5 @@
 # Exec Summary
-FlagCasino is a very easy difficulty reversing challenge. The solution to this seems to be easily brute forced after understanding what the binary is doing.
+FlagCasino is a very easy difficulty reversing challenge. The solution to this seems to be easily brute forced.
 * Time to Solve: Short
 * Difficulty: Easy
 * Tools Used: Ghidra, strings, bash scripting
