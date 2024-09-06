@@ -5,7 +5,8 @@ FlagCasino is a very easy reversing challenge.
 To start this challenge, I want to collect some information about the provided binary called "Casino"
 
 ```file casino                                                                           
-casino: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=7618b017ef4299337610a90a0a6ccb7f9efc44a4, for GNU/Linux 3.2.0, not stripped```
+casino: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=7618b017ef4299337610a90a0a6ccb7f9efc44a4, for GNU/Linux 3.2.0, not stripped
+```
 
 We can see it's a 64bit ELF binary which means it's executable on Linux. Also, a noticeable thing here is that it's symbol tables are not stripped.
 Running a strings on it next we don't see an easy flag we can grab but do see some of the structure and how we will most likely interact with the program later on
