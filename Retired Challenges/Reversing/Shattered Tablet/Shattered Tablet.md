@@ -5,6 +5,7 @@ Shattered Tablet is a very easy reversing challenge. It's probably one of the ea
 * Diffculty: Very Easy
 * Duration to Complete: Very Short
 * Provided Files: 1 binary(tablet)
+* Tools: Ghidra, Text editor
 
 # Challenge Description
 Deep in an ancient tomb, you've discovered a stone tablet with secret information on the locations of other relics. However, while dodging a poison dart, it slipped from your hands and shattered into hundreds of pieces. Can you reassemble it and read the clues?
