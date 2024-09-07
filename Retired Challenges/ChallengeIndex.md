@@ -23,5 +23,7 @@ To try and keep this section from becomming too long, I will put what tools I us
  <Coming Soon!>
 ## Reversing
 [FlagCasino (Very Easy)](https://github.com/Welshie-Sec/HackTheBox/blob/master/Retired%20Challenges/Reversing/FlagCasino/FlagCasino.md)
+
+[Shattered Tablet (Very Easy)](https://github.com/Welshie-Sec/HackTheBox/blob/master/Retired%20Challenges/Reversing/Shattered%20Tablet/Shattered%20Tablet.md)
 ## Web
  <Coming Soon!>
