@@ -1,6 +1,6 @@
 # CrownJewel-1
 ## Exec Summary
-CrownJewel-1 is the first sherlock I'm doing. It is a DFIR scenario tracking events and files of a compromised domain controller. It's fairly straightforward and doesn't require anything outside of normal Windows usage.
+CrownJewel-1 is the first sherlock I'm doing a writeup for. It is a DFIR scenario tracking events and files of a compromised domain controller. It's fairly straightforward and doesn't require anything outside of normal Windows usage.
 ### Stats
 * Diffculty: Very Easy
 * ~Duration to Complete: Short
