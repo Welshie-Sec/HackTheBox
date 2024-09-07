@@ -26,14 +26,14 @@ So opening Ghidra, we are presented with the main function and as you can see in
 
 ![Ghidra](https://github.com/user-attachments/assets/7943c50c-259a-487d-a65a-c25755aac92e)
 
-From the looks of everything here, it appears the flag when typed into the input in one go will result in the if statement being true. Given what we know about HTB{flag} format, we can see that the we can just the parts back to together in correct order by treating it like a jigsaw.
+From the looks of everything here, it appears the flag when typed into the input in one go will result in the if statement being true. Given what we know about HTB{flag} format, we can see that the we can just put the parts back to together in correct order by treating it like a jigsaw.
 
 # Solution
 I grabbed that entire IF statement and put it into a text editor, cleaned it up and started to group the different variables together.
 
 ![Solution_Grouped](https://github.com/user-attachments/assets/96d04599-25ac-4eef-a829-bedb7bc73213)
 
-I didn't bother putting them in order until I followed and just put them together in the right order which is what's redacted.
+I didn't bother fixing the order until putting them together as a complete section of the string, which is what's redacted.
 When the string was completed, I tested it against the program and then submitted the correct flag and this one is done!
 
 ![AllDone](https://github.com/user-attachments/assets/69f2eb2e-337c-4256-ab95-132f95f6327f)
