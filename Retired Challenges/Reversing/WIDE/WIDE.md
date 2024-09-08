@@ -1,5 +1,5 @@
 # Exec Summary
-WIDE is a very easy reversing challenge.
+WIDE is a very easy reversing challenge that is mostly solved by utilizing ghidra to see the structure and interesting unobfuscated strings to grab the flag from a secondary file.
 
 # Stats
 * Difficulty: Very Easy
