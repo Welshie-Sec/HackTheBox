@@ -28,4 +28,4 @@ To try and keep this section from becomming too long, I will put what tools I us
 
 [WIDE (Very Easy)](https://github.com/Welshie-Sec/HackTheBox/blob/master/Retired%20Challenges/Reversing/WIDE/WIDE.md)
 ## Web
- <Coming Soon!>
+[Flag Command (Very Easy)](https://github.com/Welshie-Sec/HackTheBox/blob/master/Retired%20Challenges/WEB/FlagCommand/Flag%20Command.md)
