@@ -16,14 +16,17 @@ So pulling up the challenge, we are met with all the flavor text and then appear
 In the HTTP Request section of main, we see how the flag is produced and how the game plays out to a point.
 
 
-<<Insert main.js pic>>
+![main_js_flag](https://github.com/user-attachments/assets/c7e8988f-0b13-448d-ba09-4218f62c16a6)
+
 
 So following this point and getting to step 4, the next step or the win condition doesn't seem to appear. I was doing this in burpsuite and noticed that it caught a particular request to the options section of the API.
 
-<<Insert burp pic>>
+![api_options](https://github.com/user-attachments/assets/13c2d18b-7659-475c-b6f6-56cfa8e2e500)
+
 
 So at different stages of the game it shows different options...and a secret string. Inputing that string after doing the START input will lead to the flag output for this challenge. Originally I thought that it had to be done once you reach the last stage, but no it doesn't seem to require it.
 
-<<Insert flag pic>>
+![flag](https://github.com/user-attachments/assets/ac89e719-76b8-4a36-8321-a9e1e53ab873)
+
 
 
